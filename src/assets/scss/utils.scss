@@ -1,0 +1,27 @@
+$mobileMaxWidth: 36rem; // 576px
+$tabletMaxWidth: 52.125rem; // 834px
+$desktopMaxWidth: 85.375rem; // 1366px
+
+@mixin responsiveProperty(
+  $property,
+  $normalValue,
+  $tabletValue,
+  $mobileValue,
+  $ultraValue
+) {
+  @media (min-width: $desktopMaxWidth) {
+    #{$property}: $ultraValue;
+  }
+
+  @media (max-width: calc($desktopMaxWidth - 0.001rem)) and (min-width: $tabletMaxWidth) {
+    #{$property}: $normalValue;
+  }
+
+  @media (max-width: calc($tabletMaxWidth - 0.001rem)) and (min-width: $mobileMaxWidth) {
+    #{$property}: $tabletValue;
+  }
+
+  @media (max-width: calc($mobileMaxWidth - 0.001rem)) {
+    #{$property}: $mobileValue;
+  }
+}

@@ -1,0 +1,29 @@
+.b4b-auth-container {
+  height: 100%;
+
+  .auth-image {
+    align-items: center;
+    justify-content: center;
+    background: var(--grey-50, #f9f9fb);
+  }
+
+  .form-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+  }
+
+  .content {
+    width: 100%;
+    padding: 1.5rem;
+  }
+
+  .terms-of-service {
+    position: absolute;
+    right: 1.5rem;
+    bottom: 1.5rem;
+
+    color: var(--justfund--ds--black);
+  }
+}

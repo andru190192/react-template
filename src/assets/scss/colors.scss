@@ -1,0 +1,117 @@
+:root {
+  //  General colors
+  --justfund--ds-white: #ffffff;
+  --justfund--ds--black: #000000;
+  --justfund--ds--label-black: #323e4a;
+  --justfund--ds--black-30: rgba(17, 19, 24, 0.3);
+  --justfund--ds--black-40: rgba(17, 19, 24, 0.4);
+  --justfund--ds--black-60: rgba(17, 19, 24, 0.6);
+  --justfund--ds--black-87: rgba(17, 19, 24, 0.87);
+  --justfund--ds--black-90: rgba(17, 19, 24, 0.9);
+
+  // Text
+  --justfund--ds--text-primary: rgba(17, 19, 24, 0.9);
+
+  // Scrollbar
+  --justfund--ds--scrollbar: #11131866;
+  --justfund--ds--trackBar: #f8f8f8;
+
+  //  Blue
+  --justfund--ds--blue-50: #e6ecff;
+  --justfund--ds--blue-100: #cedafc;
+  --justfund--ds--blue-200: #9eb8ff;
+  --justfund--ds--blue-300: #7197fe;
+  --justfund--ds--blue-400: #4375fe;
+  --justfund--ds--blue-500: #1352fe;
+  --justfund--ds--blue-600: #013bda;
+  --justfund--ds--blue-700: #012ca3;
+  --justfund--ds--blue-800: #001d6b;
+  --justfund--ds--blue-900: #001d6b;
+
+  //  Navy
+  --justfund--ds--navy-50: #e9edf1;
+  --justfund--ds--navy-100: #cfd9e2;
+  --justfund--ds--navy-200: #9fb3c6;
+  --justfund--ds--navy-300: #718ca9;
+  --justfund--ds--navy-400: #4d6680;
+  --justfund--ds--navy-500: #304050;
+  --justfund--ds--navy-600: #263340;
+  --justfund--ds--navy-700: #1d2630;
+  --justfund--ds--navy-800: #121a20;
+  --justfund--ds--navy-900: #0b0d10;
+
+  //  Gray
+  --justfund--ds--gray: #979797;
+  --justfund--ds--gray-50: #f9f9fb;
+  --justfund--ds--gray-80: #a6a6a6;
+  --justfund--ds--gray-100: #f3f4f6;
+  --justfund--ds--gray-200: #e7e9ed;
+  --justfund--ds--gray-300: #dcdee5;
+  --justfund--ds--gray-400: #d1d3dd;
+  --justfund--ds--gray-500: #c4c8d4;
+  --justfund--ds--gray-600: #959cb2;
+  --justfund--ds--gray-700: #67718e;
+  --justfund--ds--gray-800: #454b5e;
+  --justfund--ds--gray-900: #22262f;
+
+  //  Yellow
+  --justfund--ds--yellow-50: #fffaea;
+  --justfund--ds--yellow-100: #fff7dc;
+  --justfund--ds--yellow-200: #fdf0b8;
+  --justfund--ds--yellow-300: #fee795;
+  --justfund--ds--yellow-400: #fddf72;
+  --justfund--ds--yellow-500: #fed64d;
+  --justfund--ds--yellow-600: #fcc80a;
+  --justfund--ds--yellow-700: #c49b04;
+  --justfund--ds--yellow-800: #836700;
+  --justfund--ds--yellow-900: #423401;
+
+  //  Orange
+  --justfund--ds--orange-50: #fff7eb;
+  --justfund--ds--orange-100: #fef1db;
+  --justfund--ds--orange-200: #ffe1b8;
+  --justfund--ds--orange-300: #ffd294;
+  --justfund--ds--orange-400: #ffc370;
+  --justfund--ds--orange-500: #ffb44d;
+  --justfund--ds--orange-600: #ff9908;
+  --justfund--ds--orange-700: #c77400;
+  --justfund--ds--orange-800: #854d00;
+  --justfund--ds--orange-900: #422700;
+
+  //  Green
+  --justfund--ds--green-50: #dbffea;
+  --justfund--ds--green-100: #bdffd7;
+  --justfund--ds--green-200: #7affaf;
+  --justfund--ds--green-300: #37ff88;
+  --justfund--ds--green-400: #02f562;
+  --justfund--ds--green-500: #00b246;
+  --justfund--ds--green-600: #008f39;
+  --justfund--ds--green-700: #016b2c;
+  --justfund--ds--green-800: #00471d;
+  --justfund--ds--green-900: #00240e;
+
+  //  Tomato
+  --justfund-ds--tomato-50: #ffffff;
+  --justfund-ds--tomato-100: #ffe1db;
+  --justfund-ds--tomato-200: #ffc1b8;
+  --justfund-ds--tomato-300: #ffa08f;
+  --justfund-ds--tomato-400: #ff816c;
+  --justfund-ds--tomato-500: #ff6348;
+  --justfund-ds--tomato-600: #ff2a05;
+  --justfund-ds--tomato-700: #c21d01;
+  --justfund-ds--tomato-800: #851400;
+  --justfund-ds--tomato-900: #420a00;
+
+  //  Text colors
+  --justfund-ds--text-primary: rgba(17, 19, 24, 0.9);
+  --justfund-ds--text-secondary: rgba(17, 19, 24, 0.6);
+  --justfund-ds--text-tertiary: rgba(17, 19, 24, 0.4);
+  --justfund-ds--text-disabled: rgba(17, 19, 24, 0.3);
+
+  // Generic colors
+  --justfund-ds--generic-navy-1: #323e4a;
+  --justfund-ds--generic-black-1: #11131899;
+
+  // Events
+  --justfund-ds--hover-blue-1: #1352fe0d;
+}

@@ -1,0 +1,24 @@
+@import '../../../assets/scss/utils.scss';
+
+.app-main-navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 1rem;
+  border-bottom: 0.25rem solid var(#0000001a, rgba(0, 0, 0, 0.1));
+  background-color: #ffffff;
+  width: 100%;
+
+  .justfund-logo {
+    width: 5rem;
+    height: 2rem;
+    cursor: pointer;
+  }
+
+  .tabs-container {
+    @media (max-width: calc($mobileMaxWidth - 0.001rem)) {
+      width: calc(100% - 4.375rem);
+    }
+  }
+}

@@ -1,0 +1,14 @@
+.loading-button {
+  position: relative;
+
+  .loading {
+    position: absolute;
+  }
+
+  .container-children {
+    &.loading {
+      position: relative;
+      visibility: hidden;
+    }
+  }
+}

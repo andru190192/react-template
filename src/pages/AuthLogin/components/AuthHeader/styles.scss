@@ -1,0 +1,12 @@
+.MuiGrid-container.b4b-auth-header-container {
+  display: flex;
+  flex-direction: column;
+
+  .MuiTypography-body1 {
+    color: var(--jusfund--ds--gray);
+  }
+
+  .MuiTypography-caption {
+    color: var(--jusfund-ds--tomato-500);
+  }
+}

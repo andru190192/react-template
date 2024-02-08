@@ -1,0 +1,80 @@
+@import '../../assets/scss/utils.scss';
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-top: 0.1875rem;
+  background-color: var(--justfund--ds--gray-50);
+  position: relative;
+  min-height: calc(100% - 5rem);
+  height: auto;
+  height: calc(100vh - 5rem);
+  overflow-y: auto;
+
+  .title-container {
+    display: flex;
+    width: '100%';
+    background-color: var(--justfund--ds-white);
+    justify-content: space-between;
+
+    &.sticky {
+      position: sticky;
+      z-index: 1100;
+      top: 0px;
+      left: auto;
+      right: 0;
+    }
+
+    @include responsiveProperty(
+      padding,
+      1.5rem 2.5rem,
+      1.5rem 2.5rem,
+      0.5rem 1rem,
+      1.5rem 2.5rem
+    );
+
+    h1 {
+      font-family: 'Montserrat';
+      font-weight: 700;
+      line-height: 3rem;
+      letter-spacing: '1%';
+      @include responsiveProperty(font-size, 2rem, 1.5rem, 1.5rem, 2rem);
+    }
+
+    .date-container {
+      display: flex;
+      flex-direction: column;
+      gap: 0.5rem;
+
+      .date {
+        text-align: right;
+        line-height: 1.375rem;
+        letter-spacing: 0.1px;
+        color: var(--justfund--ds--blue-700);
+        font-weight: 700;
+        font-family: 'Montserrat';
+        font-size: 1.375rem;
+        @include responsiveProperty(text-align, right, left, left, right);
+
+        .MuiSkeleton-root {
+          float: right;
+        }
+      }
+
+      .users {
+        font-weight: 500;
+        font-size: 1rem;
+        line-height: 1.25rem;
+        letter-spacing: 0.1px;
+        text-align: right;
+        color: var(--justfund-ds--text-secondary);
+        @include responsiveProperty(text-align, right, left, left, right);
+
+        .MuiSkeleton-root {
+          float: right;
+        }
+      }
+    }
+  }
+}
